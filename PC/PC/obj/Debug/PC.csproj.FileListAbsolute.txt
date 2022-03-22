@@ -9,7 +9,6 @@ C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.csproj.GenerateResource.cache
 C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.csproj.CoreCompileInputs.cache
 C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.exe
 C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.pdb
-C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.ProduitInfo.resources
 C:\Users\mouha\source\repos\PC\PC\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\mouha\source\repos\PC\PC\bin\Debug\Google.Protobuf.dll
 C:\Users\mouha\source\repos\PC\PC\bin\Debug\K4os.Compression.LZ4.dll
@@ -33,3 +32,6 @@ C:\Users\mouha\source\repos\PC\PC\bin\Debug\System.Memory.xml
 C:\Users\mouha\source\repos\PC\PC\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\mouha\source\repos\PC\PC\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.csproj.CopyComplete
+C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.FournisseurInfo.resources
+C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.Vues.Fournisseur.resources
+C:\Users\mouha\source\repos\PC\PC\obj\Debug\PC.ProduitInfo.resources

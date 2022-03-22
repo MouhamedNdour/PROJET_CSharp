@@ -89,27 +89,47 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBProduit.cs" />
-    <Compile Include="Produit.cs">
+    <Compile Include="Data\DBFournisseur.cs" />
+    <Compile Include="Data\DBProduit.cs" />
+    <Compile Include="Models\FournisseurClass.cs" />
+    <Compile Include="Vues\Fournisseur.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Produit.Designer.cs">
+    <Compile Include="Vues\Fournisseur.Designer.cs">
+      <DependentUpon>Fournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vues\FournisseurInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vues\FournisseurInfo.Designer.cs">
+      <DependentUpon>FournisseurInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vues\Produit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vues\Produit.Designer.cs">
       <DependentUpon>Produit.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProduitClass.cs" />
-    <Compile Include="ProduitInfo.cs">
+    <Compile Include="Models\ProduitClass.cs" />
+    <Compile Include="Vues\ProduitInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProduitInfo.Designer.cs">
+    <Compile Include="Vues\ProduitInfo.Designer.cs">
       <DependentUpon>ProduitInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Produit.resx">
+    <EmbeddedResource Include="Vues\Fournisseur.resx">
+      <DependentUpon>Fournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vues\FournisseurInfo.resx">
+      <DependentUpon>FournisseurInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vues\Produit.resx">
       <DependentUpon>Produit.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProduitInfo.resx">
+    <EmbeddedResource Include="Vues\ProduitInfo.resx">
       <DependentUpon>ProduitInfo.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -137,5 +157,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
